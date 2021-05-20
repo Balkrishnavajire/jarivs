@@ -1,4 +1,6 @@
-for running jarvis your system u will need to install following modules
+For running of Jarvis on your system you need to install these python modules
+while using jarvis keep intenet contected
+And use external micro phone
 import speech_recognition as sr
 import pyttsx3
 import datetime
