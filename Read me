@@ -1,0 +1,13 @@
+for running jarvis your system u will need to install following modules
+import speech_recognition as sr
+import pyttsx3
+import datetime
+import wikipedia
+import webbrowser
+import os
+import time
+import subprocess
+import wolframalpha
+import json
+import requests
+You also need to created id on wolframalpha and copy app id and past in the code 
