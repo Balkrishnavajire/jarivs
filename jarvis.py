@@ -158,8 +158,8 @@ if __name__=='__main__':
         elif 'ask' in statement:
             speak('I can answer to computational and geographical questions and what question do you want to ask now')
             question=takeCommand()
-            app_id="R2K75H-7ELALHR35X"
-            client = wolframalpha.Client('R2K75H-7ELALHR35X')
+            app_id="past App id here"
+            client = wolframalpha.Client('past App id here')
             res = client.query(question)
             answer = next(res.results).text
             speak(answer)
